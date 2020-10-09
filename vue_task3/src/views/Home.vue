@@ -69,17 +69,8 @@
 </template>
 
 <script>
-import SwitchTab from '@/components/SwitchTab.vue';
-import DisplayTodo from '@/components/DisplayTodo.vue';
-import AddTodo from '@/components/AddTodo.vue';
-
 export default {
     name: 'Home',
-    components: {
-        SwitchTab,
-        DisplayTodo,
-        AddTodo,
-    },
     data() {
         return {
             task: '',
